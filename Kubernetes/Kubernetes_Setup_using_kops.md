@@ -44,7 +44,7 @@
    ```sh
     aws s3 mb s3://demo.k8s.valaxy.net
    ```
-1. Expose environment variable:
+1. Create environmental variables:
    ```sh
     export KOPS_STATE_STORE=s3://demo.k8s.valaxy.net
    ```
